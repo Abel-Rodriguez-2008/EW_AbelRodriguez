@@ -1,0 +1,17 @@
+* {font-family: Arial, Helvetica, sans-serif;}
+main {width: 1200px;height: 650px; margin: 0 auto; background-color: aqua;}
+#bannerarriba {width: 1200px;height: 120px; background-color: blueviolet; margin: 0 auto;}
+#aeshop {width: 600px; height: 120px;background-color: darkblue;}
+#aeshop:hover {background-color: beige;}
+#lista {float: left; width: 600px; height: 120px; background-color: crimson;}
+li {display: inline-block; font-size: 90%; color: brown;}
+li:hover {color: black;}
+video {margin-left: 30px; margin-right: 30px;}
+#beige {width:550px; height: 500px; background-color: beige; float: right; margin-right: 50px;}
+.center {text-align: center; margin-top: 200px;font-size: 25px;}
+#reed {color: brown;}
+#blanco {width: 1200px; height: 80px; border: solid 2px; margin: auto; margin-top: 10px;margin-bottom: 10px;}
+.center2 {text-align: center; margin-top: 20px;}
+#bannahbox {width: 1200px; height: 500px; margin: 0 auto;}
+.bannah {height: 300px; width: 500px;}
+.merg {float: right;}
