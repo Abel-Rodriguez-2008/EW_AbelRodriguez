@@ -1,0 +1,19 @@
+* {font-family: "Mountains of Christmas", serif;}
+main {border: dashed 2px red ; height: 100%; width: 100%; text-align: center; }
+.divider {margin: auto;}
+h1 {font-size: 400%; color: green;}
+.thatone {margin: auto;display: flex; justify-content: center; flex-wrap: wrap;}
+.sizer {width: 400px; height: 200px; border: 2px red solid; margin: 8px;}
+.first {background: linear-gradient(to bottom, red 7%, green 50%, white 100%);}
+.second {background: linear-gradient(45deg, white 1%, red 20%, red 90%, white 100%);}
+.third {background: linear-gradient(90deg, green 1%, white 100%);}
+.fourth {background: linear-gradient(to bottom, green 7%,green 20%, red 30%)}
+.fifth {background: linear-gradient(45deg, green 38%, red 38%, red 70%, white 70%);}
+.sixth {background: linear-gradient(to right, green, white, red, green, white, red, green);}
+h2 {color: white; font-size: 195%;}
+p {font-size: 90%;}
+.hovererer:hover {color: red;}
+.hoverer:hover {color: black;}
+.odiocentrartexto {height: 40px; width: 400px;}
+footer {margin: auto; border: 2px solid green; width: 100%; height: 120px;}
+.odiocentrartexto2 {height: 5%; width: 400px;}

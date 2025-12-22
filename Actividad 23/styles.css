@@ -1,0 +1,11 @@
+* {margin: 0; padding: 0; box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center; justify-content: center;}
+header {height: 200px; width: 1000px;}
+main {height: 700px; width: 1000px;}
+.takingtoolong {letter-spacing: 5px;}
+img {height: 200px; width: 200px; margin: 50px; filter: grayscale(1);}
+img:hover {filter: grayscale(0);}
+figure {display: flex; flex-wrap: wrap;}
+main {background-color: antiquewhite; height: 100%;}
+article {margin-bottom: 70px; margin-top: 30px; background-color: rgb(255, 222, 179);}
