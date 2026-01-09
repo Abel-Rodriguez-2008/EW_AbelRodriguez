@@ -1,0 +1,17 @@
+* {text-align: center;}
+main {display: flex; justify-content: center;flex-flow: column nowrap; margin-top: 250px;}
+#fondo {background-image: url(img/Fondo.webp);background-size: cover;}
+a {color: greenyellow; font-family: "Story Script", sans-serif;}
+a:hover {color: rgb(255, 209, 123);}
+p {font-family: "Roboto";}
+.blanco {color: white;}
+
+figure {display: flex; justify-content: center;flex-flow: row wrap; margin-top: 200px;}
+h1 {font-family: "Story Script", sans-serif;}
+img {height: 200px; width: 200px; filter: grayscale(1);}
+img:hover {filter: grayscale(0);}
+div {margin-left: 10px; margin-right: 10px;}
+footer {display: flex; justify-content: center;flex-flow: row wrap; margin-top: 100px;}
+#homer {height: 50px; width: 100px; border: 2px solid rgb(255, 208, 0);background-color: rgb(255, 255, 145);text-align: center;}
+#blue {color: orangered;}
+#blue:hover {color: orange;}
