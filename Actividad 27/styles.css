@@ -1,0 +1,24 @@
+* {text-align: center;}
+main {display: flex; justify-content: space-around; flex-flow: row wrap}
+header {height: 120px; width: 100vw; text-align: center;}
+.orangered {color: orangered;}
+h1 {font-family: "chewy";}
+.redboxer {width: 100px;height: 50px; background-color: orangered; margin-top: 10px;}
+p {font-family: "Arial"; font-size: 80%; margin-top: 17px; font-weight: bold;}
+section {display: flex; justify-content: space-around; flex-flow: row wrap; margin: 10px; margin-top: 10vh;}
+.square {height: 150px; width: 150px;}
+.white {color: white;}
+.black {color: black;}
+.blue {background-color: blue; border: 2px solid blue;}
+.pink {background-color: rgb(255, 0, 255);border: 2px solid rgb(255, 0, 255);}
+.yellow {background-color: yellow;border: 2px solid yellow;}
+.green {background-color: green;border: 2px solid green;}
+.square:hover {background-color: white; color: white;}
+.downright:hover {transform: translate(10px,10px);}
+.upright:hover {transform: translate(10px,-10px);}
+.downleft:hover {transform: translate(-10px,10px);}
+.upleft:hover {transform: translate(-10px,-10px);}
+.smol {font-size: 100%; transform: translateY(50px)}
+article {border: solid 2px orangered;width:600px; height:450px; margin: auto; margin-bottom: 10vh; margin-top: 5vh;}
+img {width: 800px; height: auto;}
+img:hover {filter: brightness(1.2);}
