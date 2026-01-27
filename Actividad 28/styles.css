@@ -1,0 +1,10 @@
+* {font-family: "Alight-Slab";text-align: center;}
+body {justify-content: center;}
+header {width: 70vw; height: 150px; margin: auto; display: flex; justify-content: left; flex-flow: row wrap;}
+h1 {font-family: "new-astro", sans-serif; font-weight: 700; font-style: bold; margin-right: 50vw;} 
+nav {background-color: #fe4934; width: 70vw; height: 15px; display: flex; justify-content: space-around; flex-flow: row wrap;}
+.nave {color: white; transform: translateY(-19px);}
+.mama {width: 75vw; height: auto 100px; display: flex; justify-content: center; flex-flow: row wrap; margin: auto;}
+#john {width: 75vw; height: auto; margin: auto;}
+.mama2 {width: 75vw; height: 200px; display: flex; justify-content: space-around; flex-flow: row nowrap; flex-shrink: auto; margin: auto; background-image: url(img/Fondo.webp); background-size: cover;}
+footer {width: 70vw; height: 30px; margin: auto; display: flex; justify-content: space-around; flex-flow: row wrap; color: #fe4934;}
