@@ -1,0 +1,16 @@
+* {color: white; text-align: center;}
+h1 {font-family: "carilliantine"; font-size: 300%;}
+h5 {font-family: "monotalic";}
+body {background-color: black;}
+main {display: flex; justify-content: space-around; flex-flow: row wrap}
+header {display: flex; justify-content: center; flex-flow: column wrap; width: 100vw;}
+#parriba {transform: translateY(-40px);}
+.caja {background-color: yellow; width: 200px; height: 200px; margin: 10px;}
+.negro {color: black;}
+.uno:hover {background-image: url(img/gilda2.webp);background-size: cover;}
+.dos {border: 10px solid red; width: 180px; height: 180px;}
+.tres {background-image: url(img/gilda3.jpg);background-size: cover;}
+footer {display: flex; justify-content: center;flex-flow: row wrap; background-color: white; border: 5px solid red; width: 60vw; margin: auto; margin-top: 5vh;}
+@media only screen and (orientation: portrait) {.caja { background-color: olive; }}
+@media only screen and (orientation: portrait) {footer {display: none;}}
+@media only screen and (orientation: landscape) {.sevilla {display: none;}}
