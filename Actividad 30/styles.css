@@ -1,0 +1,25 @@
+* {font-family: "Roboto"; margin: 0 auto; text-align: center;}
+#titulo {width: 80vw;}
+ul {background-color: #feb236; display: flex; flex-flow: row nowrap; justify-content: space-around; height: 50px; width: 80vw;
+    padding: 5px; margin-bottom: 5vh;}
+.innerbox {height: 50px; width: 110px; background-color: #feb236;}
+.innerbox:hover {background-color: #ff7b25;}
+p {transform: translateY(15px);text-decoration: none; color: black;}
+li a {text-decoration: none;}
+li {display: inline-block;}
+main {background-color: #6b5b95; width: 80vw;padding: 5px; padding-top: 50px; padding-bottom: 50px; display: flex; flex-flow: row nowrap;
+     justify-content: center;}
+main:hover {transform: scale(1.2,1.2);}
+#ugh {width: 70vw;}
+
+footer {margin-top: 5vh; background-color: #ff7b25; display: flex; flex-flow: row nowrap; justify-content: space-around; 
+    width: 80vw; padding: 5px; padding-top: 15px; padding-bottom: 10px;}
+footer:hover {background-color: #feb236;}
+.idk {margin-bottom: 5px; justify-content: space-around;}
+.graph {width: 30vw;}
+h3 {background-color: #ffffff; margin-bottom: 5px;}
+
+@media only screen and (max-width: 601px) {.ancho {display: none;} ul {flex-flow: column; background-color: #d64161; height: 150px;} 
+.innerbox {height: 50px; width: 110px; background-color: #d64161;} .innerbox:hover {background-color: #6b5b95;} main {background-color: #feb236;} 
+footer {background-color: #6b5b95; flex-flow: column nowrap; justify-content: center;} footer:hover {background-color: #d64161;}}  
+@media only screen and (min-width: 600px) {.alto {display: none;} footer {flex-flow: row nowrap;}}
