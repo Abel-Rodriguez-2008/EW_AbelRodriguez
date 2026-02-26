@@ -1,8 +1,9 @@
 * {margin-bottom: 5px; font-family: Arial, Helvetica, sans-serif;}
 body {background-image: url(snow.png);background-size: cover;}
 #cajatitulo {width: 1000px; height: 150px; float: left;}
-#scroller {overflow: scroll;width: 1000px; height: 600px;}
+#scroller {overflow: scroll;width: 1000px; height: 700px;}
 .cajablanca {width: 996px; height: 200px; background-color: white; border: 2px solid; float: left; margin-left: -40px;}
+.cajadorada {width: 996px; height: 200px; background-image: linear-gradient(to right, yellow, white, orange, yellow, white, orange, yellow); border: 2px solid orangered; float: left; margin-left: -40px;}
 .important {color: midnightblue;}
 p { margin: 70px; font-size: 200%;}
 p:hover {color: rgb(81, 0, 255);}
