@@ -1,0 +1,21 @@
+* {font-family: "forager", sans-serif; font-weight: 400; font-style: normal;}
+main {width: 70vw; margin: auto; display: flex; flex-flow: column nowrap; justify-content: center;}
+#title {margin-top: none; justify-content: left; font-size: 1.5vw;}
+nav {border: 0.2vw solid #ffa400; width: 60vw; height: 50vh; margin: auto;}
+nav:hover {background-image: url(img/fondo.jpg);background-size: contain;}
+#links {width: 60vw;display: flex; flex-flow: row nowrap; justify-content: space-around;}
+#links a {color: #ffa400; font-size: 1vw;}
+#images {width: 60vw;display: flex; flex-flow: row nowrap; justify-content: space-around;}
+#images a img {width: 12vw;}
+article {background-color: #ffa400; color: black; width: 58vw; margin: auto; margin-top: 2vh; padding: 1vw;}
+article p {font-size: 1.1vw;}
+footer {border: 0.2vw solid #ffa400; width: 60vw; margin: auto; height: 10vh; display: flex; flex-flow: column nowrap; justify-content: center; margin-top: 10vh;}
+footer p {margin: auto; font-size: 1.1vw;}
+
+@media (max-width:600px) {
+    body {background-color: black;} 
+    #title {color: #ffa400; font-size: 1vw;}
+    article p {font-size: 1.7vw;}
+    footer p {color: #ffa400; font-size: 1.7vw;}
+    }
+    
