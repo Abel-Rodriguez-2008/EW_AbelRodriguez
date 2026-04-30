@@ -1,0 +1,14 @@
+* {text-align: center; color: blue;}
+p, a {font-size: 1vw;}
+br {font-size: none;}
+h2 {font-size: 1.5vw;}
+h1 {font-size: 2vw;}
+main {margin: 4vw; display: grid; grid-template-areas: "hijo1hijo1" "hijo2" "hijo3" "hijo4hijo4"; grid-template-columns: 20% 80%; border: 0.1vw blue solid;}
+div {border: 0.15vw blue solid;}
+#hijo1 {grid-column: 1 / 3;}
+#hijo2 {text-align: left;}
+#hijo3 {padding-left: 1vw;}
+#hijo3 p {color: black; text-align: left;}
+#hijo3 h2 {color: black; text-align: left;}
+#hijo4 {grid-column: 1 / 3; background-color: blue;}
+#hijo4 p strong {color: white;}
