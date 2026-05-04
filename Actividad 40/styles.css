@@ -1,0 +1,18 @@
+* {text-align: center; color: blue;}
+main {margin: 4vw; display: grid; grid-template-areas: "hijo1hijo1" "hijo2" "hijo3" "hijo4hijo4"; grid-template-columns: 20% 80%; border: 0.1vw blue solid;}
+div {border: 0.15vw blue solid;}
+#hijo1 {grid-column: 1 / 3;}
+#hijo2 {text-align: left;}
+#hijo3 {padding-left: 1vw;}
+#hijo4 {grid-column: 1 / 3;}
+
+#repsol {width: 30vw;}
+.redbox {width: 10vw; height: 10vh; background-color: orangered; margin: auto; margin-top: 5vh; margin-bottom: 5vh;}
+#bannah {height: 35vw; margin: 2vw;}
+
+footer {border: 0.1vw solid blue; margin: 2vw; display: grid; grid-template-areas: "crate1""crate2""crate3""crate4""crate5""crate6""crate7""crate8" "crate9 crate9 crate9" ;grid-template-columns: 33% 33% 33%;}
+.crates {padding: 2vw;}
+.crates img {width: 10vw;}
+#crate1 {grid-row: 1 / 3;}
+#crate9 {grid-column: 1 / 4; background-color: blue; text-align: center;}
+#crate9 p {color: white; font-size: 2vw;}
