@@ -1,0 +1,23 @@
+* {text-align: center;}
+main {width: 80vw; margin: auto; display: grid; grid-template-columns: 15% 55% 30%;grid-template-areas: "hijo1hijo1hijo1" "hijo2" "hijo3" "hijo4" "hijo5hijo5" "hijo6";}
+.hijos {padding: 1vw; border: solid 0.1vw blue}
+#hijo1 {border: 0.3vw greenyellow solid; grid-column: 1/4;}
+#hijo1 h2 {color: blue; font-size: 1.5vw;}
+#hijo2 {border: 0.3vw red solid;}
+.mascotas {border: 0.3vw red solid; margin-top: 1vw; margin-bottom: 1vw;}
+.mascotas p {font-size: 1.3vw;}
+#hijo3 {border: 0.3vw purple solid;}
+#hijo3 p {font-size: 1.3vw; text-align: left; padding: 1.5vw;}
+#hijo4 {border: 0.3vw cyan solid; display: grid; grid-template-columns: 50% 50%;}
+    .icons {margin: auto; color: indigo;}
+    i {width: 5vw;}
+#hijo5 {background-color: yellow;border: 0.3vw yellow solid; grid-column: 1/3;}
+#hijo5 a img {width: 50vw;}
+#hijo6 {border: 0.3vw plum solid; padding-top: auto;}
+.mascotas2 {border: 0.3vw plum solid; margin-top: 1vw; margin-bottom: 1vw; padding-left: 1vw;}
+.mascotas2 p {font-size: 1.3vw;text-align: left;}
+footer {width: 77.7vw; margin: auto; display: grid; grid-template-columns: 50% 50%; border: 0.3vw solid brown; background-color: mistyrose ;padding: 1vw; margin-top: 2vw;}
+.hijosadoptados {border: 0.3vw solid brown; padding: 1.7vw; background-color: white; margin: 1vw;}
+#adoptado1 {grid-column: 1/3;}
+#adoptado2 {background-color: coral; grid-row: 2/4;}
+#adoptado4 {background-color: bisque;}
