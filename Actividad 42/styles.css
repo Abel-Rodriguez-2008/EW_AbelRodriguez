@@ -1,0 +1,12 @@
+* {color: navy; font-size: 5vw; text-align: center;}
+body {background-color: cyan;}
+h1 {font-size: 6vw;}
+article { display: grid; grid-template-columns: 70% 30%; margin: 2vw; gap: 0.5vw; background-color: cadetblue;}
+article div {background-color: aquamarine; border: 0.2vw solid black; padding: 2vw;}
+article div p {color: black;}
+#Item1 {display: flex; flex-flow: row nowrap; justify-content: center;}
+#Item1 div {background-color: navy; border: 0.2vw solid white; padding: 1vw; width: 10vw;}
+#Item1 div p {color: white; font-size: 3vw;}
+#Item2 {display: flex ;flex-direction: column; justify-content: center; align-items: center;}
+@media only screen and (max-width:1000px) { #Item1 {flex-direction: column; justify-content: center; align-items: center;}
+    article div {background-color: lightskyblue;}}
