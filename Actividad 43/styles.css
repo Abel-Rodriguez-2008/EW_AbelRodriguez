@@ -1,0 +1,17 @@
+* {margin: auto; text-align: center;font-family: "nouvelle-vague", sans-serif; font-weight: 400; font-style: normal; font-size: 1.5vw;}
+header {display: flex; flex-flow: row nowrap; justify-content: space-around; margin-top: 5vw; margin-bottom: 5vw;}
+header img {width: 20vw;}
+section {display: flex; flex-flow: row nowrap; justify-content: space-around;}
+section div a img {width: 20vw;}
+section div p {margin: 2vw; color: olivedrab;}
+article {background-color: olivedrab; padding: 2vw; margin: 1vw;}
+article p {font-size: 2.5vw;}
+#flexicaja {display: grid; grid-template-columns: 75% 25%; grid-template-areas: 
+    "Jaime eldivese"
+    "jaime2 eldivese"; background-color: aqua;}
+nav {display: flex; justify-content: center; align-items: center;}
+nav a div img {width: 16.6vw;}
+#jaime {grid-area: jaime; background-color: orange;}
+#jaime2 {grid-area: jaime2; background-color: blue;}
+#eldivese {background-color: aliceblue; grid-area: eldivese;}
+
